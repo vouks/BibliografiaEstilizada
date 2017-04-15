@@ -7,6 +7,9 @@ body{
     overflow-x:hidden;
     }
 
+li{
+    font-size:20px;
+}
 
 p{
     font-size:20px;
@@ -17,7 +20,7 @@ p.small{
     }
 
 a,a.active,a:active,a:focus,a:hover{
-    color:#0288D1;
+    color:black;
     font-size:20px;
     }
 
@@ -46,21 +49,21 @@ hr.star-light:after,hr.star-primary:after{
     }
 
 hr.star-light{
-    border-color:#fff
+    border-color:white
     }
 
 hr.star-light:after{
-    background-color:#0288D1;
-    color:#fff
+    background-color:white;
+    color:green
     }
 
 hr.star-primary{
-    border-color:#4A148C
+    border-color:green
     }
 
 hr.star-primary:after{
     background-color:#fff;
-    color:#4A148C
+    color:green
     }
 
 .img-centered{
@@ -69,7 +72,7 @@ hr.star-primary:after{
 
 header{
     text-align:center;
-    background:#0288D1;
+    background:green;
     color:#fff
     }
 
@@ -103,7 +106,7 @@ header .intro-text .skills{
         }
     
     header .intro-text .name{
-        font-size:4.75em
+        font-size:3.75em
         }
     
     header .intro-text .skills{
@@ -112,7 +115,7 @@ header .intro-text .skills{
     }
     
     .navbar-custom{
-        background:#4A148C;
+        background:black;
         font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
         text-transform:uppercase;
         font-weight:700;
@@ -236,11 +239,14 @@ header .intro-text .skills{
         
         footer h3{margin-bottom:30px}
         
-        footer .footer-above{padding-top:50px;background-color:#4A148C}
+        footer .footer-above{padding-top:50px;background-color:green}
         
-        footer .footer-col{margin-bottom:50px}
+        footer .footer-col{
+            margin-bottom:50px;
+            margin-left:100px;
+            }
         
-        footer .footer-below{padding:25px 0;background-color:#0D47A1}
+        footer .footer-below{padding:25px 0;background-color:black}
         
         .btn-outline{color:#fff;font-size:20px;border:2px solid #fff;background:0 0;transition:all .3s ease-in-out;margin-top:15px}
         
@@ -270,7 +276,18 @@ header .intro-text .skills{
         
         .scroll-top .btn{font-size:20px;width:50px;height:50px;border-radius:100%;line-height:28px}
         
-        #skipnav a{padding:6px;position:absolute;top:-40px;left:0;color:#fff;border-right:1px solid #fff;border-bottom:1px solid #fff;border-bottom-right-radius:8px;background:0 0;transition:top 1s ease-out,background 1s linear;z-index:2000}
+        #skipnav a{
+            padding:6px;
+            position:absolute;
+            top:-40px;left:0;
+            color:#fff;
+            border-right:1px solid #fff;
+            border-bottom:1px solid #fff;
+            border-bottom-right-radius:8px;
+            background:0 0;
+            transition:top 1s ease-out,background 1s linear;
+            z-index:2000}
+
         
         #skipnav a:focus{position:absolute;left:0;top:0;background:#0288D1;outline:0;transition:top .1s ease-in,background .5s linear}
         
